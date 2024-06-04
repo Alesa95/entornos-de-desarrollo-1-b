@@ -31,56 +31,51 @@ public class Casa {
     }
 
     /**
-     * @return
+     * @return	La direccion de la casa
      */
     public String getDireccion() {
-        // TODO implement here
-        return "";
+        return this.direccion;
     }
 
     /**
-     * @return
+     * @return	El numero de habitaciones de la casa
      */
     public int getNumHabitaciones() {
-        // TODO implement here
-        return 0;
+        return this.numHabitaciones;
     }
 
     /**
-     * @return
+     * @return	Los metros cuadrados de la casa
      */
     public int getMetrosCuadrados() {
-        // TODO implement here
-        return 0;
+        return this.metrosCuadrados;
     }
 
     /**
-     * @param direccion
+     * @param direccion		La direccion de la casa
      */
     public void setDireccion(String direccion) {
-        // TODO implement here
+        this.direccion = direccion;
     }
 
     /**
-     * @param numHabitaciones
+     * @param numHabitaciones	El numero de habitaciones de la casa
      */
     public void setNumHabitaciones(int numHabitaciones) {
-        // TODO implement here
+        this.numHabitaciones = numHabitaciones;
     }
 
     /**
-     * @param metrosCuadrados
+     * @param metrosCuadrados	Los metros cuadrados de la casa
      */
     public void setMetrosCuadrados(int metrosCuadrados) {
-        // TODO implement here
+        this.metrosCuadrados = metrosCuadrados;
     }
 
     /**
-     * @return
+     * @return	Una cadena con la direccion, el numero de habitaciones y los metros cuadrados de la casa
      */
     public String toString() {
-        // TODO implement here
-        return "";
+        return direccion + " " + numHabitaciones + " " + metrosCuadrados;
     }
-
 }
